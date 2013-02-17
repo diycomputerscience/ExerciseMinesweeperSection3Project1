@@ -19,21 +19,11 @@ Here's a conversation which you might have with a senior developer while trying 
  - _**(senior developer)** The main responsibility would be as a container of square objects_
  - _**(you)** If a board is to contain a grid of squares, the first question that comes to mind is - What kind of a data structure should we use, to represent a grid of Squares ?_
  - _**(senior developer)** Two options come to mind right away. We can either represent the grid as a 2 dimensional array of Square objects, or we can represent the grid as a List of Lists. I think representing the grid of squares as a two dimensional array seems like a reasonable choice_
- - _**(you)**_ Should the ```Board``` class have any methods ?
- - _**(senior developer)** Great question. But instead of answering your question directly, let me ask you a question first. Who do you think would be the client of the ```Board``` class ? By client, I mean, which class would use (invoke method of) the ```Board``` class ?_
- - _**(you)** Ummm, I think the UI class(es) would invoke methods on the ```Board``` class._
- - _**(senior developer)** That's right. What do you think the UI class(es) would want to do with the Board ?_
- - _**(you)** When a user performs an action on the UI, to mark a square or uncover it, the UI class would need to reflect that action on the square objects. Since the Board is a container of square objects, it would need to perform such operations on the Board._
- - _**(senior developer)** That's great. So which methods do you think the ```Board``` class should have ?_
- - _**(you)** Methods for manipulating ```Square``` objects ? Like ```uncover```  and ```mark``` ?_
- - _**(senior developer)** Yes that's a good start. Eventually you might add a few more methods to it, but you don't need to worry about it right now. However, do remember that you will have to identify the square in the method in Board._
- - _**(you)** Thanks for your time. Can I ask you just one more question ?_
- - _**(senior developer)** Sure!_
  - _**(you)** Should the size of the board be configurable ?_
- - _**(senior developer)** Eventually yes, but for now you can define constants in the Board class, and use a hardcoded size._
+ - _**(senior developer)** Eventually yes, but for now I suggest you start with the simplest thing which works. At the moment I suggest you define constants in the Board class to define the size, as shown in Code Snippet 3.1 _
+- _**(you)** Should the size of the board be configurable ?_
 
-
-We have given you the two constants shown below in Board.java.
+We have already provided you with the two constants shown below, in Board.java.
 
         public static final int MAX_ROWS = 6;
         public static final int MAX_COLS = 6;
