@@ -20,8 +20,7 @@ Here's a conversation which you might have with a senior developer while trying 
  - _**(you)** If a board is to contain a grid of squares, the first question that comes to mind is - What kind of a data structure should we use, to represent a grid of Squares ?_
  - _**(senior developer)** Two options come to mind right away. We can either represent the grid as a 2 dimensional array of Square objects, or we can represent the grid as a List of Lists. I think representing the grid of squares as a two dimensional array seems like a reasonable choice_
  - _**(you)** Should the size of the board be configurable ?_
- - _**(senior developer)** Eventually yes, but for now I suggest you start with the simplest thing which works. At the moment I suggest you define constants in the Board class to define the size, as shown in Code Snippet 3.1 _
-- _**(you)** Should the size of the board be configurable ?_
+ - _**(senior developer)** Eventually yes, but for now I suggest you start with the simplest thing which works. At the moment I suggest you define constants in the Board class to define the size, as shown in Code Snippet 3.1_
 
 We have already provided you with the two constants shown below, in Board.java.
 
