@@ -46,6 +46,8 @@ If you do not know why we have made these constants static and final, you should
 <h2>Questions To Ponder</h2>
 
  1. What are the pros and cons of representing the grid of squares as a two dimensional array as compared to a list of ```List``` objects ?
+ 1. Why do constants need to be static and final ?
+ 1. Would it make sense to make a constant ```final``` ?
 
 <h2>Learning Outcomes</h2>
 
@@ -54,4 +56,3 @@ If you do not know why we have made these constants static and final, you should
 3. How to define a constant 
 4. How to instantiate a class
 5. How to make design decisions
-
