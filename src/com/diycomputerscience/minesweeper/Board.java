@@ -12,7 +12,7 @@ public class Board {
 	}
 	
 	public Square[][] getSquares() {
-			
+		return null;
 	}
 
 }
