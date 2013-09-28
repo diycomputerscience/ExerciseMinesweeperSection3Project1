@@ -36,8 +36,7 @@ If you do not know why we have made these constants static and final, you should
  1. Import this project into Eclipse
  1. Run ```SquareTest``` as a unit test and ensure that all the tests pass
  1. Run ```BoardTest``` as a unit test. You will see 2 of 2 tests have failed. You have to implement methods in the ```Board``` class to get the tests to pass
- 1. In the ```Board``` class, declare an instance attribute called ```squares```, which is a 2 dimensional array of ```Square``` objects.
- 1. In the constructor of the ```Board``` class, instantiate the 2 dimensional array and give it a size, such that the numbers of rows are ```MAX_ROWS``` and the number of columns are ```MAX_COLS```
+ 1. In the constructor of the ```Board``` class, instantiate the 2 dimensional array ```squares``` and give it a size, such that the numbers of rows are ```MAX_ROWS``` and the number of columns are ```MAX_COLS```
  1. Run ```BoardTest```. Now you should have 1 success ```testSquaresGridSize``` and 1 failure ```testSquaresNotNull``` .
  1. Think why the other test case is failing. Can you figure out how to get it to pass ? Take some time and think about it.
  1. Instantiate ```squares``` in the constructor of ```Board``` and ensure that every element in the grid has a valid ```Square``` object. For now we do not have to do anything special with the squares.
